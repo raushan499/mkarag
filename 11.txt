@@ -1,0 +1,24 @@
+# This is a comment - it is ignored by the interpreter
+print("Hello, World!")  # This line prints "Hello, World!" to the console
+
+# Variables
+name = "Alice"
+age = 30
+
+# Conditional statement
+if age > 18:
+    print(f"{name} is an adult.")
+else:
+    print(f"{name} is a minor.")
+
+# Loop
+for i in range(3):
+    print(f"Iteration {i+1}")
+
+# Function definition
+def greet(person):
+    return f"Greetings, {person}!"
+
+# Calling the function
+message = greet("Bob")
+print(message)
